@@ -1,0 +1,22 @@
+{
+    "accounts": [
+      {
+        "id": 1,
+        "name": "tyler",
+        "pin": "0008",
+        "value": "0.01"
+      },
+      {
+        "id": 2,
+        "name": "stu",
+        "pin": "5700",
+        "colour": "99999"
+      },
+      {
+        "id": 3,
+        "name": "leo",
+        "pin": "8888",
+        "colour": "666"
+      }
+    ]
+  }

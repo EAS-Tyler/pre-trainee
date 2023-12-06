@@ -1,0 +1,29 @@
+{
+    "location": "New York",
+    "data": [
+      {
+        "date": "2023-10-01",
+        "temperature_max": 72.5,
+        "temperature_min": 58.7,
+        "precipitation": 0.1
+      },
+      {
+        "date": "2023-10-02",
+        "temperature_max": 68.3,
+        "temperature_min": 54.2,
+        "precipitation": 0.0
+      },
+      {
+        "date": "2023-10-03",
+        "temperature_max": 74.8,
+        "temperature_min": 60.1,
+        "precipitation": 0.2
+      },
+      {
+        "date": "2023-10-04",
+        "temperature_max": 71.2,
+        "temperature_min": 55.9,
+        "precipitation": 0.0
+      }
+    ]
+  }

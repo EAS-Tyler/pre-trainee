@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 14,
+      "username": "tys",
+      "password": "a819a0386f28399f441ead6dcccf17ef"
+    },
+    {
+      "id": 17,
+      "username": "rice",
+      "password": "2ff547637dd54842db9880b13d5bf363"
+    },
+    {
+      "id": 20,
+      "username": "ty",
+      "password": "6a4aafc4071ebeb20cf48e9793bd1a08"
+    },
+    {
+      "id": 21,
+      "username": "tylo",
+      "password": "c483f6ce851c9ecd9fb835ff7551737c"
+    },
+    {
+      "id": 22,
+      "username": "doggo",
+      "password": "a4757d7419ff3b48e92e90596f0e7548"
+    },
+    {
+      "id": 24,
+      "username": "cat",
+      "password": "1d400511749bd3f4fe1b088def493385"
+    },
+    {
+      "id": 25,
+      "username": "barn",
+      "password": "50f8b6c98b0f9a271a562632405ae63d"
+    }
+  ]
+}

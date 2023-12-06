@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Banking</title>
+</head>
+<style>
+    /* div{
+        display: inline;
+    } */
+</style>
+<body>
+    <button onclick="getStuAccount()">Stu's account</button>
+    <div id="stu">
+
+    </div>
+   <!-- <div id="tyler"></div> why does above give new line but this dont?-->
+    <button style="background-color: red;" onclick="getTysAccount()">Tys's account</button>
+    <div id="tyler"></div>
+    <button onclick="getLeosAccount()">Leo's account</button>
+    <div id="leo"></div>
+</body>
+<script>
+// element.style.property = new style	
+    function getStuAccount() {
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+        };
+        fetch("http://localhost:3000/user/1", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                // document.getElementById("stu").innerHTML = result;
+                Object.keys(result).map((k)=>{
+                    prop=document.createElement("div")
+                    prop.innerHTML=k + ": " + result[k]
+                    document.getElementById("stu").append(prop)
+                })
+            })
+            .catch(error => {
+                console.log('error', error)
+            }
+            );
+    }
+    function getTysAccount() {
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+        };
+        fetch("http://localhost:3000/user/0", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+               // document.getElementById("tyler").innerHTML = result;
+                Object.keys(result).map((k)=>{
+                    prop=document.createElement("div")
+                    prop.innerHTML=k + ": " + result[k]
+                    document.getElementById("tyler").append(prop)
+                })
+            })
+            .catch(error => { 
+                console.log('error', error)
+            }
+            );
+    }
+    function getLeosAccount() {
+        var requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+        };
+        fetch("http://localhost:3000/user/2", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+//                document.createElement("div")
+              //  document.getElementById("leo").innerHTML = "<table><tr><td>"+result+"<td><tr></table>" ;
+                Object.keys(result).map((k)=>{
+                    prop=document.createElement("div")
+                    prop.innerHTML=k + ": " + result[k]
+                    document.getElementById("leo").append(prop)
+                })
+            })
+            .catch(error => {
+                console.log('error', error)
+            }
+            );
+    }
+
+</script>
+
+</html>

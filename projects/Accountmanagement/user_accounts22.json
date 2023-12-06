@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "id": 5,
+      "username": "sausage",
+      "password": "and-egg"
+    },
+    {
+      "id": 6,
+      "username": "beans",
+      "password": "ontoast"
+    },
+    {
+      "id": 7,
+      "username": "kinder",
+      "password": "egg"
+    },
+    {
+      "id": 8,
+      "username": "tyler",
+      "password": "joe"
+    },
+    {
+      "id": 9,
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": 12,
+      "username": "rice",
+      "password": "pudding"
+    }
+  ]
+}

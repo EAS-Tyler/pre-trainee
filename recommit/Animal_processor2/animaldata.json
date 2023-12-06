@@ -1,0 +1,46 @@
+{
+    "animals": [
+      {
+        "name": "Lion",
+        "species": "Panthera leo",
+        "habitat": "Grassland",
+        "average_lifespan": 12,
+        "average_speed": 50
+      },
+      {
+        "name": "Elephant",
+        "species": "Loxodonta africana",
+        "habitat": "Savannah",
+        "average_lifespan": 60,
+        "average_speed": 25
+      },
+      {
+        "name": "Penguin",
+        "species": "Spheniscidae",
+        "habitat": "Antarctica",
+        "average_lifespan": 15,
+        "average_speed": 1
+      },
+      {
+        "name": "T-Rex",
+        "species": "Tyrannosaurus rex",
+        "habitat": "Forest",
+        "average_lifespan": 30,
+        "average_speed": 10
+      },
+      {
+        "name": "Ostrich",
+        "species": "Struthio camelus",
+        "habitat": "Savannah",
+        "average_lifespan": 50,
+        "average_speed": 43
+      },
+      {
+        "name": "Rhino",
+        "species": "Ceratotherium simum",
+        "habitat": "Savannah",
+        "average_lifespan": 45,
+        "average_speed": 31
+      }
+    ] 
+}

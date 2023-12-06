@@ -1,0 +1,39 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "bob",
+      "colour": "purple"
+    },
+    {
+      "id": 2,
+      "name": "john",
+      "colour": "red"
+    },
+    {
+      "id": 3,
+      "name": "homie",
+      "colour": "dog"
+    },
+    {
+      "id": 4,
+      "name": "jim",
+      "colour": "blue"
+    },
+    {
+      "id": 5,
+      "name": "gg",
+      "colour": "roro"
+    },
+    {
+      "id": 6,
+      "name": "d",
+      "colour": "d"
+    },
+    {
+      "id": 7,
+      "name": "ty",
+      "colour": "jj"
+    }
+  ]
+}
